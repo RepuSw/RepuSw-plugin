@@ -1,4 +1,4 @@
-# RPSW - Claude Code Plugin Marketplace
+# RepuSw - Claude Code Plugin Marketplace
 
 Organization plugin marketplace for Claude Code. Includes internal tools and curated external plugins.
 
@@ -6,7 +6,7 @@ Organization plugin marketplace for Claude Code. Includes internal tools and cur
 
 | Plugin | Description |
 |--------|-------------|
-| **rpsw** | Internal development workflow tools (code review, status checks, agents) |
+| **repusw** | Internal development workflow tools (code review, status checks, agents) |
 | **superpowers** | Agentic skills framework - TDD, brainstorming, debugging, subagent development |
 
 ## Installation
@@ -20,8 +20,8 @@ Organization plugin marketplace for Claude Code. Includes internal tools and cur
 ### Step 2: Install plugins
 
 ```bash
-# Install the internal RPSW plugin
-/plugin install rpsw@rpsw-marketplace
+# Install the internal RepuSw plugin
+/plugin install repusw@rpsw-marketplace
 
 # Install superpowers
 /plugin install superpowers@rpsw-marketplace
@@ -32,14 +32,14 @@ Organization plugin marketplace for Claude Code. Includes internal tools and cur
 Run `/help` to see installed skills, or try:
 
 ```bash
-/rpsw:hello
-/rpsw:code-review
-/rpsw:status
+/repusw:repusw-hello
+/repusw:repusw-code-review
+/repusw:repusw-status
 ```
 
 ## Included MCP Servers
 
-The rpsw plugin bundles the following MCP servers, which are automatically registered on install:
+The repusw plugin bundles the following MCP servers, which are automatically registered on install:
 
 | MCP Server | Description |
 |------------|-------------|

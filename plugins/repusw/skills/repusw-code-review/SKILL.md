@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: repusw-code-review
 description: Review code for best practices, potential bugs, security concerns, and improvements. Use when reviewing code, checking PRs, or analyzing code quality.
 ---
 

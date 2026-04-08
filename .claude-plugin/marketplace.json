@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "rpsw",
-      "source": "./plugins/rpsw",
-      "description": "RPSW - Enhanced development workflow plugin with code review, status checks, and more"
+      "name": "repusw",
+      "source": "./plugins/repusw",
+      "description": "RepuSw - Enhanced development workflow plugin with code review, status checks, and more"
     },
     {
       "name": "superpowers",
