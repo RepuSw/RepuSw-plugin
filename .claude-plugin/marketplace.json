@@ -1,0 +1,25 @@
+{
+  "name": "rpsw-marketplace",
+  "owner": {
+    "name": "VincentYang"
+  },
+  "metadata": {
+    "description": "RPSW organization plugin marketplace - includes internal tools and curated external plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rpsw",
+      "source": "./plugins/rpsw",
+      "description": "RPSW - Enhanced development workflow plugin with code review, status checks, and more"
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Agentic skills framework - TDD, brainstorming, systematic debugging, subagent-driven development, and code review"
+    }
+  ]
+}

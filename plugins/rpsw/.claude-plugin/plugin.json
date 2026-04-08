@@ -1,0 +1,11 @@
+{
+  "name": "rpsw",
+  "description": "RPSW - A Claude Code plugin with skills, hooks, and agents for enhanced development workflows",
+  "version": "1.0.0",
+  "author": {
+    "name": "VincentYang"
+  },
+  "repository": "https://github.com/RepuSw/RepuSw-plugin",
+  "license": "MIT",
+  "keywords": ["rpsw", "development", "workflow"]
+}
