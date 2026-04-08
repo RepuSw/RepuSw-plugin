@@ -37,6 +37,23 @@ Run `/help` to see installed skills, or try:
 /rpsw:status
 ```
 
+## Included MCP Servers
+
+The rpsw plugin bundles the following MCP servers, which are automatically registered on install:
+
+| MCP Server | Description |
+|------------|-------------|
+| **context7** | Fetch up-to-date documentation for libraries, frameworks, and APIs |
+| **github** | GitHub operations (issues, PRs, repos, code search) |
+
+### Prerequisites
+
+The **github** MCP server requires a GitHub Personal Access Token. Set it as an environment variable before launching Claude Code:
+
+```bash
+export GITHUB_PERSONAL_ACCESS_TOKEN=ghp_your_token_here
+```
+
 ## For Developers
 
 ### Local testing
