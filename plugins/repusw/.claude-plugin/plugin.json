@@ -7,5 +7,11 @@
   },
   "repository": "https://github.com/RepuSw/RepuSw-plugin",
   "license": "MIT",
-  "keywords": ["repusw", "development", "workflow"]
+  "keywords": ["repusw", "development", "workflow"],
+  "userConfig": {
+    "github_pat": {
+      "description": "GitHub Personal Access Token for GitHub MCP server (create at https://github.com/settings/personal-access-tokens/new)",
+      "sensitive": true
+    }
+  }
 }
