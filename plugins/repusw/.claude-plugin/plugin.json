@@ -10,7 +10,9 @@
   "keywords": ["repusw", "development", "workflow"],
   "userConfig": {
     "github_pat": {
-      "description": "GitHub Personal Access Token for GitHub MCP server (create at https://github.com/settings/personal-access-tokens/new)",
+      "title": "GitHub Personal Access Token",
+      "type": "string",
+      "description": "GitHub PAT for GitHub MCP server (create at https://github.com/settings/personal-access-tokens/new)",
       "sensitive": true
     }
   }
