@@ -10,6 +10,16 @@ Organization plugin marketplace for Claude Code. Includes internal tools and cur
 | **superpowers** | Agentic skills framework - TDD, brainstorming, debugging, subagent development |
 | **context7-plugin** | Up-to-date documentation lookup from source repositories |
 
+## Prerequisites
+
+The repusw plugin ships a Bash-based security hook that parses JSON with `jq`. Install it before using the plugin:
+
+| OS | Command |
+|----|---------|
+| macOS | `brew install jq` |
+| Windows | `winget install jqlang.jq` (or `choco install jq`) |
+| Linux | `apt install jq` / `dnf install jq` |
+
 ## Installation
 
 ### Step 1: Add the marketplace
